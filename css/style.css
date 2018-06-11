@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+/* Main Styles */
+header {
+    padding: 4px 4px 4px 10px;
+    border-bottom:1px solid #AAAAAA;
+    background: #F3F3F3;
+}
+
+header h1, nav {
+    display: inline;
+}
+
+header h1 {
+    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-size: 36px;
+}
+
+header aside {
+    float: right;
+}
+
+a {
+    color: #3B5998; /* Facebook Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #3B5998;
+}
+
+nav {
+    position: fixed;
+}
+
+nav a {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#about {
+    font-family: "Trebuchet MS",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    padding: 5px;
+    font-size: 14px;
+}
+
+section iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    position: fixed;
+    top: 45px;
+}
+
+section #container {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px 0 20px 0;
+    background: #f6f6ef;
+}
+
+section p {
+    margin: 3px 10px 18px 10px;
+}
+
+/* Pretty much stolen from Digg V4, at least that site is good for something... */
+footer {
+    background: #F3F3F3;
+    border-top:1px solid #AAAAAA;
+    bottom:0;
+    color:#333333;
+    font-size:0.833333em;
+    padding:5px 0;
+    position:fixed;
+    right:0;
+    text-align:center;
+    width:100%;
+    z-index:5;
+}
+
+/* Hacker News Page */
+#hn {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+section #container {
+    padding: 10px;
+}
+
+section #container #bigtextbox {
+    width: 85%;
+    display: block;
+    margin: 30px auto;
+    height: 32px;
+    font-size: 24px;
+    border: 1px solid #aaa;
+    padding: 6px;
+
+}
+
+/* Twitter Page */
+#tw {
+    text-indent: -999999px;
+    background: url(/images/twitter.png);
+    height: 167px;
+    width: 642px;
+    margin: auto;
+}
+
+/* About Page */
+
+#contact a {
+    float: right;
+    font-size: 28px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    background: #eee;
+}
+
+#contact a:hover {
+    background: #ccc;
+}
+
+blockquote {
+    background: #E9EDF5;
+    padding: 30px;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: italic;
+    width: 75%;
+    margin: 20px;
+}
+
+dl {
+    margin: 10px 20px;
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 10px;
+}
